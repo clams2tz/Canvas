@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exo Canvas</title>
+  </head>
+  <body style="margin: 0; padding: 0; color: rgb(0, 0, 0)">
+    <div class="container" style="padding: 20px">
+      <div
+        class="myCanvas"
+        style="
+          padding: 5px;
+          height: 400px;
+          width: 600px;
+          border: solid black 3px;
+        "
+      >
+        <canvas id="myCanvas"></canvas>
+      </div>
+      <div
+        class="toolbar"
+        style="padding: 5px; width: 606px; background-color: gray"
+      >
+        <label for="stroke">Stroke</label>
+        <input id="stroke" type="color" />
+
+        <label for="lineWidth">Line Width</label>
+        <input id="lineWidth" type="number" value="5" />
+
+        <button id="eraser">Gomme</button>
+        <button id="efface">Effacer le Dessin</button>
+        <button id="straight">Ligne Droite</button>
+        <button id="save">Enregistrer</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
